@@ -1,5 +1,3 @@
-Docker cmds history :
-
  1372  docker ps -a
  1373  history | grep docker
  1374  docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
